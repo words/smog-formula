@@ -1,0 +1,13 @@
+language: node_js
+script: npm run-script test-travis
+node_js:
+- '0.10'
+- '0.11'
+after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+deploy:
+  provider: npm
+  email: tituswormer@gmail.com
+  api_key:
+    secure: CFtRf8NPPR0LZJOiZ9WJkdbPu1ncDdkvPdX61E7L4aHkfC6XFe3ybFGVYEVHp8eCxlqqERAWG8LHUuoA8S/QDCpdUvqgkkQ9KPgCgMsE5bxAUcwJlQbsJ2uYu1Raw6ScEjaKI+on/4xeDXGDnYeDNGoO6C0mQ9+zmjzlM6kcKhs=
+  on:
+    repo: wooorm/smog-formula

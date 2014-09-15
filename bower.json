@@ -1,0 +1,32 @@
+{
+  "name": "smog-formula",
+  "main": "index.js",
+  "description": "Formula to detect the ease of reading a text according to the SMOG (Simple Measure of Gobbledygook) formula (1969)",
+  "license": "MIT",
+  "keywords": [
+    "smog",
+    "simple",
+    "measure",
+    "gobbledygook",
+    "readability",
+    "index",
+    "formula"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/smog-formula.git"
+  },
+  "authors": [
+    "Titus Wormer <tituswormer@gmail.com>"
+  ],
+  "ignore": [
+    ".*",
+    "*.log",
+    "*.md",
+    "component.json",
+    "package.json",
+    "coverage",
+    "node_modules",
+    "spec"
+  ]
+}
