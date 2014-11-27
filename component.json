@@ -12,8 +12,8 @@
     "index",
     "formula"
   ],
+  "repository": "wooorm/smog-formula",
   "scripts": [
     "index.js"
-  ],
-  "repository": "wooorm/smog-formula"
+  ]
 }
