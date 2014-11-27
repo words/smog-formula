@@ -40,7 +40,7 @@ describe('smogFormula()', function () {
          */
 
         roundAssert(smogFormula({
-            'sentence' : 1
+            'sentence': 1
         }), 3.1291);
 
         /**
@@ -52,8 +52,8 @@ describe('smogFormula()', function () {
          */
 
         roundAssert(smogFormula({
-            'sentence' : 1,
-            'polysillabicWord' : 4
+            'sentence': 1,
+            'polysillabicWord': 4
         }), 14.554593);
     });
 });
