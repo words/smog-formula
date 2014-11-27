@@ -1,4 +1,4 @@
-# smog-formula [![Build Status](https://travis-ci.org/wooorm/smog-formula.svg?branch=master)](https://travis-ci.org/wooorm/smog-formula) [![Coverage Status](https://img.shields.io/coveralls/wooorm/smog-formula.svg)](https://coveralls.io/r/wooorm/smog-formula?branch=master)
+# smog-formula [![Build Status](https://img.shields.io/travis/wooorm/smog-formula.svg?style=flat)](https://travis-ci.org/wooorm/smog-formula) [![Coverage Status](https://img.shields.io/coveralls/wooorm/smog-formula.svg?style=flat)](https://coveralls.io/r/wooorm/smog-formula?branch=master)
 
 Formula to detect the ease of reading a text according to the [SMOG (Simple Measure of Gobbledygook) formula](http://en.wikipedia.org/wiki/SMOG).
 
