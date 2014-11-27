@@ -4,7 +4,7 @@
  * Module dependencies (smogFormula, assert).
  */
 
-var smogFormula = require('..'),
+var smogFormula = require('./'),
     assert = require('assert');
 
 /**
