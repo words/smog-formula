@@ -57,4 +57,4 @@ Given an object containing the number of sentences (`sentence`) and the number o
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
