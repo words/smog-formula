@@ -1,12 +1,16 @@
 'use strict';
 
 /**
- * The constants as defined by the revised SMOG formula.
+ * Constants.
  */
 
-var SENTENCE_SIZE = 30,
-    WEIGHT = 1.0430,
-    BASE = 3.1291;
+var SENTENCE_SIZE,
+    WEIGHT,
+    BASE;
+
+SENTENCE_SIZE = 30;
+WEIGHT = 1.0430;
+BASE = 3.1291;
 
 /**
  * Get the grade level of a given value according to the SMOG formula.
