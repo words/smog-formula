@@ -1,62 +1,35 @@
+/**
+ * @author Titus Wormer
+ * @copyright 2014 Titus Wormer
+ * @license MIT
+ * @module smog-formula
+ * @fileoverview Test suite for `smog-formula`.
+ */
+
 'use strict';
 
-/**
- * Dependencies.
- */
+/* Dependencies. */
+var test = require('tape');
+var nan = require('is-nan');
+var smog = require('./');
 
-var smogFormula,
-    assert;
+/* Formula. */
+test('daleChall', function (t) {
+  t.ok(nan(smog()), 'NaN when an invalid value is given');
 
-smogFormula = require('./');
-assert = require('assert');
+  t.equal(
+    round(smog({sentence: 1})),
+    3.1291
+  );
 
-/**
- * Utilities.
- */
+  t.equal(
+    round(smog({sentence: 1, polysillabicWord: 4})),
+    14.554593
+  );
 
-function roundAssert(a, b) {
-    assert(Math.round(a * 1000000) === Math.round(b * 1000000));
-}
-
-/**
- * Tests.
- */
-
-describe('smogFormula()', function () {
-    it('should be of type `function`', function () {
-        assert(typeof smogFormula === 'function');
-    });
-
-    it('should work', function () {
-        var result;
-
-        /**
-         * Return NaN when an invalid value is given.
-         */
-
-        result = smogFormula();
-
-        assert(result !== result);
-
-        /**
-         * For a sentence without polysillabic words.
-         */
-
-        roundAssert(smogFormula({
-            'sentence': 1
-        }), 3.1291);
-
-        /**
-         * For “The Australian platypus is seemingly a hybrid of
-         * a mammal and reptilian creature.”
-         *
-         * Sentences: 1
-         * Polysillabic: 4 (Australian, platypus, seemingly, reptilian)
-         */
-
-        roundAssert(smogFormula({
-            'sentence': 1,
-            'polysillabicWord': 4
-        }), 14.554593);
-    });
+  t.end();
 });
+
+function round(val) {
+  return Math.round(val * 1e6) / 1e6;
+}
