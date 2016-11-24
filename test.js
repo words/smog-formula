@@ -1,19 +1,9 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module smog-formula
- * @fileoverview Test suite for `smog-formula`.
- */
-
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var nan = require('is-nan');
 var smog = require('./');
 
-/* Formula. */
 test('daleChall', function (t) {
   t.ok(nan(smog()), 'NaN when an invalid value is given');
 
