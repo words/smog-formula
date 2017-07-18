@@ -12,14 +12,14 @@
     "index",
     "formula"
   ],
-  "files": [
-    "index.js"
-  ],
-  "repository": "https://github.com/wooorm/smog-formula",
+  "repository": "wooorm/smog-formula",
   "bugs": "https://github.com/wooorm/smog-formula/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -50,6 +50,8 @@
     ]
   },
   "remarkConfig": {
-    "plugins": ["preset-wooorm"]
+    "plugins": [
+      "preset-wooorm"
+    ]
   }
 }
