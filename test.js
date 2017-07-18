@@ -4,7 +4,7 @@ var test = require('tape');
 var nan = require('is-nan');
 var smog = require('./');
 
-test('daleChall', function (t) {
+test('smogFormula', function (t) {
   t.ok(nan(smog()), 'NaN when an invalid value is given');
 
   t.equal(
