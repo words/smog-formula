@@ -59,13 +59,13 @@ returns the reading ease associated with the document.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/smog-formula.svg
+[travis-badge]: https://img.shields.io/travis/words/smog-formula.svg
 
-[travis]: https://travis-ci.org/wooorm/smog-formula
+[travis]: https://travis-ci.org/words/smog-formula
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/smog-formula.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/words/smog-formula.svg
 
-[codecov]: https://codecov.io/github/wooorm/smog-formula
+[codecov]: https://codecov.io/github/words/smog-formula
 
 [npm]: https://docs.npmjs.com/cli/install
 
@@ -75,4 +75,4 @@ returns the reading ease associated with the document.
 
 [formula]: http://en.wikipedia.org/wiki/SMOG
 
-[syllable]: https://github.com/wooorm/syllable
+[syllable]: https://github.com/words/syllable
