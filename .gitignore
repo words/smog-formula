@@ -5,3 +5,4 @@ coverage/
 node_modules/
 smog-formula.js
 smog-formula.min.js
+yarn.lock
