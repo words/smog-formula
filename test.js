@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var nan = require('is-nan');
-var smog = require('./');
+var smog = require('.');
 
 test('smogFormula', function (t) {
   t.ok(nan(smog()), 'NaN when an invalid value is given');
