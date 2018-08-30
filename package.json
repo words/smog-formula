@@ -1,6 +1,6 @@
 {
   "name": "smog-formula",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Formula to detect the ease of reading a text according to the SMOG (Simple Measure of Gobbledygook) formula (1969)",
   "license": "MIT",
   "keywords": [
