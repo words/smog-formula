@@ -5,20 +5,13 @@ node_js:
 - '9.0'
 after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
-  - provider: npm
-    email: tituswormer@gmail.com
-    api_key:
-      secure: TwBP1Yg6sRs1C0rwkhHzOs1iIBfj1/i3jdUkSDAbDR//KlB4XkmOQrE4NAUmhwT99YhqyEuvIxDeKjDPp2pINFUobtgFLHR0dIvDPPsZ14C8447ogVsJJNHB+bxl25v9RNUz2bRByMcquqo0fqFniiOUYPm0AsQz+K6Z7tlvtQs=
-    on:
-      tags: true
-      node: '4.0'
-  - provider: releases
-    skip_cleanup: true
-    api_key:
-      secure: kfMC53t3K4LK28o/egIFynaM5caSxNFYpf+sfuX5QTbt6EpkV5vkke33at/PBf1JMNHLlFaMHRdTvx77g4QLpHNiPCbuiTYuql6Ik0vo9bzoaGpA06bdvoYdCOg+RisiMCatLLidQLGseAWxCYb6JjZklcR9wxhTRyoYOvZq/vg=
-    file:
-      - "smog-formula.js"
-      - "smog-formula.min.js"
-    on:
-      tags: true
-      node: '9.0'
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: kfMC53t3K4LK28o/egIFynaM5caSxNFYpf+sfuX5QTbt6EpkV5vkke33at/PBf1JMNHLlFaMHRdTvx77g4QLpHNiPCbuiTYuql6Ik0vo9bzoaGpA06bdvoYdCOg+RisiMCatLLidQLGseAWxCYb6JjZklcR9wxhTRyoYOvZq/vg=
+  file:
+    - "smog-formula.js"
+    - "smog-formula.min.js"
+  on:
+    tags: true
+    node: '9.0'
