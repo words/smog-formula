@@ -1,25 +1,24 @@
-'use strict';
+'use strict'
 
-module.exports = smog;
+module.exports = smog
 
-var SENTENCE_SIZE = 30;
-var WEIGHT = 1.0430;
-var BASE = 3.1291;
+var sentenceSize = 30
+var weight = 1.043
+var base = 3.1291
 
-/* Get the grade level of a given value according to the
- * SMOG formula.  More information is available at
- * WikiPedia: See http://en.wikipedia.org/wiki/SMOG. */
+// Get the grade level of a given value according to the SMOG formula.
+// More information is available at WikiPedia:
+// <http://en.wikipedia.org/wiki/SMOG>
 function smog(counts) {
   if (!counts || !counts.sentence) {
-    return NaN;
+    return NaN
   }
 
-  return BASE +
-    (
-      WEIGHT *
+  return (
+    base +
+    weight *
       Math.sqrt(
-        (counts.polysillabicWord || 0) *
-        (SENTENCE_SIZE / counts.sentence)
+        (counts.polysillabicWord || 0) * (sentenceSize / counts.sentence)
       )
-    );
+  )
 }

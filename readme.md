@@ -16,15 +16,12 @@ npm install smog-formula
 ## Usage
 
 ```js
-var smogFormula = require('smog-formula');
+var smogFormula = require('smog-formula')
 
-/* For “The Australian platypus is seemingly a hybrid of
- * a mammal and reptilian creature.” (1 sentence; 4
- * polysillabic words). */
-smogFormula({
-  sentence: 1,
-  polysillabicWord: 4
-}); //=> 14.554593...
+// For “The Australian platypus is seemingly a hybrid of a mammal and reptilian
+// creature.” (1 sentence; 4 polysillabic words).
+smogFormula({sentence: 1, polysillabicWord: 4})
+// => 14.554593...
 ```
 
 ## API
