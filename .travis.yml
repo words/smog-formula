@@ -1,8 +1,8 @@
 language: node_js
 sudo: false
 node_js:
-- lts/boron
-- node
+  - lts/dubnium
+  - node
 after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
   provider: releases
@@ -10,7 +10,7 @@ deploy:
   api_key:
     secure: kfMC53t3K4LK28o/egIFynaM5caSxNFYpf+sfuX5QTbt6EpkV5vkke33at/PBf1JMNHLlFaMHRdTvx77g4QLpHNiPCbuiTYuql6Ik0vo9bzoaGpA06bdvoYdCOg+RisiMCatLLidQLGseAWxCYb6JjZklcR9wxhTRyoYOvZq/vg=
   file:
-    - "smog-formula.js"
-    - "smog-formula.min.js"
+    - 'smog-formula.js'
+    - 'smog-formula.min.js'
   on:
     tags: true
