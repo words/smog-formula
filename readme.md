@@ -68,8 +68,8 @@ returns the reading ease associated with the document.
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[formula]: http://en.wikipedia.org/wiki/SMOG
+[formula]: https://en.wikipedia.org/wiki/SMOG
 
 [syllable]: https://github.com/words/syllable

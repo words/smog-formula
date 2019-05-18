@@ -8,7 +8,7 @@ var base = 3.1291
 
 // Get the grade level of a given value according to the SMOG formula.
 // More information is available at WikiPedia:
-// <http://en.wikipedia.org/wiki/SMOG>
+// <https://en.wikipedia.org/wiki/SMOG>
 function smog(counts) {
   if (!counts || !counts.sentence) {
     return NaN
