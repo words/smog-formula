@@ -5,8 +5,8 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the grade level of text according to the
-[SMOG (Simple Measure of Gobbledygook) formula][formula].
+Formula to detect the grade level of text according to the [SMOG (Simple Measure
+of Gobbledygook) formula][formula].
 
 See [syllable][] for detecting syllables.
 
@@ -33,10 +33,9 @@ smogFormula({sentence: 1, polysillabicWord: 4})
 
 ### `smogFormula(counts)`
 
-Given an object containing the number of sentences
-(`sentence`) and the number of polysillabic (three or
-more syllables) words (`polysillabicWord`) in a document,
-returns the reading ease associated with the document.
+Given an object containing the number of sentences (`sentence`) and the number
+of polysillabic (three or more syllables) words (`polysillabicWord`) in a
+document, returns the reading ease associated with the document.
 
 ## Related
 
