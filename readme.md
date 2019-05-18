@@ -1,4 +1,9 @@
-# smog-formula [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# smog-formula
+
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 Formula to detect the grade level of text according to the
 [SMOG (Simple Measure of Gobbledygook) formula][formula].
@@ -56,13 +61,21 @@ returns the reading ease associated with the document.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/smog-formula.svg
+[build-badge]: https://img.shields.io/travis/words/smog-formula.svg
 
-[travis]: https://travis-ci.org/words/smog-formula
+[build]: https://travis-ci.org/words/smog-formula
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/words/smog-formula.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/words/smog-formula.svg
 
-[codecov]: https://codecov.io/github/words/smog-formula
+[coverage]: https://codecov.io/github/words/smog-formula
+
+[downloads-badge]: https://img.shields.io/npm/dm/smog-formula.svg
+
+[downloads]: https://www.npmjs.com/package/smog-formula
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/smog-formula.svg
+
+[size]: https://bundlephobia.com/result?p=smog-formula
 
 [npm]: https://docs.npmjs.com/cli/install
 
