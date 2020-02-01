@@ -5,20 +5,20 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the grade level of text according to the [SMOG (Simple Measure
-of Gobbledygook) formula][formula].
+Formula to detect the grade level of text according to the [SMOG (simple measure
+of gobbledygook) formula][formula].
 
-See [syllable][] for detecting syllables.
+See [`syllable`][syllable] for detecting syllables.
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install smog-formula
 ```
 
-## Usage
+## Use
 
 ```js
 var smogFormula = require('smog-formula')
@@ -26,7 +26,7 @@ var smogFormula = require('smog-formula')
 // For “The Australian platypus is seemingly a hybrid of a mammal and reptilian
 // creature.” (1 sentence; 4 polysillabic words).
 smogFormula({sentence: 1, polysillabicWord: 4})
-// => 14.554593...
+// => 14.554593…
 ```
 
 ## API
