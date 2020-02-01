@@ -14,6 +14,10 @@
   ],
   "repository": "words/smog-formula",
   "bugs": "https://github.com/words/smog-formula/issues",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/wooorm"
+  },
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
