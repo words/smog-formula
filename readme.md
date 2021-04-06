@@ -60,9 +60,9 @@ document, returns the reading ease associated with the document.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/words/smog-formula.svg
+[build-badge]: https://github.com/words/smog-formula/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/words/smog-formula
+[build]: https://github.com/words/smog-formula/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/words/smog-formula.svg
 
