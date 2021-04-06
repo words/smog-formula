@@ -12,6 +12,9 @@ See [`syllable`][syllable] for detecting syllables.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -21,7 +24,7 @@ npm install smog-formula
 ## Use
 
 ```js
-var smogFormula = require('smog-formula')
+import {smogFormula} from 'smog-formula'
 
 // For “The Australian platypus is seemingly a hybrid of a mammal and reptilian
 // creature.” (1 sentence; 4 polysillabic words).
@@ -30,6 +33,9 @@ smogFormula({sentence: 1, polysillabicWord: 4})
 ```
 
 ## API
+
+This package exports the following identifiers: `smogFormula`.
+There is no default export.
 
 ### `smogFormula(counts)`
 

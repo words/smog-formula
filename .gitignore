@@ -1,8 +1,5 @@
 .DS_Store
 *.log
-.nyc_output/
 coverage/
 node_modules/
-smog-formula.js
-smog-formula.min.js
 yarn.lock
