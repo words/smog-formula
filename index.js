@@ -11,7 +11,7 @@ var base = 3.1291
 // <https://en.wikipedia.org/wiki/SMOG>
 function smog(counts) {
   if (!counts || !counts.sentence) {
-    return NaN
+    return Number.NaN
   }
 
   return (
