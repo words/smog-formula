@@ -4,7 +4,7 @@
  * @property {number} sentence
  *   Number of sentences.
  * @property {number} [polysillabicWord]
- *   Number of of polysillabic (three or more syllables) words.
+ *   Number of polysillabic (three or more syllables) words.
  */
 
 /**
