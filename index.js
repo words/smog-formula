@@ -1,7 +1,15 @@
 /**
- * @typedef {Object} SmogFormulaCounts
+ * @typedef Counts
+ *   Counts from input document.
  * @property {number} sentence
+ *   Number of sentences.
  * @property {number} [polysillabicWord]
+ *   Number of of polysillabic (three or more syllables) words.
+ */
+
+/**
+ * @typedef {Counts} SmogFormulaCounts
+ *   Deprecated: please use the `Counts` type instead.
  */
 
 const sentenceSize = 30
@@ -9,10 +17,14 @@ const weight = 1.043
 const base = 3.1291
 
 /**
- * Get the grade level of a given value according to the SMOG formula. More information is available at WikiPedia: <https://en.wikipedia.org/wiki/SMOG>.
+ * Given an object containing the number of sentences (`sentence`) and the
+ * number of polysillabic (three or more syllables) words (`polysillabicWord`)
+ * in a document, returns the reading ease associated with the document.
  *
- * @param {SmogFormulaCounts} counts
+ * @param {Counts} counts
+ *   Counts from input document.
  * @returns {number}
+ *   Reading ease associated with the document.
  */
 export function smogFormula(counts) {
   if (!counts || !counts.sentence) {
