@@ -4,9 +4,9 @@
  * @property {number} [polysillabicWord]
  */
 
-var sentenceSize = 30
-var weight = 1.043
-var base = 3.1291
+const sentenceSize = 30
+const weight = 1.043
+const base = 3.1291
 
 /**
  * Get the grade level of a given value according to the SMOG formula. More information is available at WikiPedia: <https://en.wikipedia.org/wiki/SMOG>.
